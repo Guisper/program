@@ -1,0 +1,158 @@
+.P11-Box1 {
+    width: 100%;
+}
+
+.P11-Box1>img {
+    width: 100%;
+}
+
+.P11-Box21>img {
+    margin: 0 auto;
+}
+
+.P11-Box2>div {
+    padding: 20px;
+}
+
+.P11-Box22 {
+    position: relative;
+}
+
+.P11-Box22>p:first-child {
+    font-size: x-large;
+}
+
+.P11-Box22 h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 15px;
+    color: #ef4136;
+}
+
+.price {
+    margin: 20px 0;
+    background-color: #F7F7F7;
+}
+
+.share {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+.shareBox {
+    position: absolute;
+    width: auto;
+    height: 0;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px #DDD;
+    border-radius: 5px;
+    left: -350%;
+    top: 95%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.shareBox>div {
+    padding: 10px;
+}
+
+.shareBox svg {
+    height: 0;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.share:hover .shareBox {
+    height: 50px;
+    opacity: 1;
+}
+
+.share:hover svg {
+    height: auto;
+    opacity: 1;
+}
+
+.P11BtnBox {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.P11BtnBox button {
+    color: black;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: #DDD;
+    transition: 0.5s;
+}
+
+.P11BtnBox :hover {
+    border-radius: 50px;
+    background-color: #ef4136;
+    color: #FFF;
+}
+
+.detail>p {
+    font-size: larger;
+    padding: 5px 10px;
+}
+
+.P11-tel {
+    width: 100%;
+    height: 30px;
+    margin: 20px auto;
+}
+
+.P11-tel>div {
+    cursor: pointer;
+    text-align: center;
+    width: 240px;
+    padding: 10px;
+    font-size: large;
+    color: #FFF;
+    background-color: #ef4136;
+    border-radius: 30px;
+    border: none;
+}
+
+.P11-tel>div>svg {
+    position: absolute;
+    transform: translate(-150%, 0);
+}
+
+.P11-tel>button>span {
+    line-height: 30px;
+}

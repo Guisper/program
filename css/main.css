@@ -1,0 +1,312 @@
+.leftBtn, .rightBtn {
+    position: absolute;
+    max-width: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.P1imgBox img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.leftBtn {
+    left: 15%;
+}
+
+.rightBtn {
+    right: 15%;
+}
+
+[class*='col']>span {
+    color: #A1A1A1;
+}
+
+.oBox-1>[class*='col'] {
+    padding: 15px;
+}
+
+.oBox-1>div {
+    cursor: pointer;
+}
+
+.oDownimg {
+    position: absolute;
+    transform: translateY(30%);
+}
+
+.item>img {
+    width: 100%;
+}
+
+.oFlex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.oFlex>div {
+    color: #FFF;
+    text-align: center;
+}
+
+.oBox-3 {
+    color: #666;
+}
+
+.oBox-3>h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.oBox-3>p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.oBox-3-1 {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 30px;
+    padding: 15px 0;
+}
+
+.oBox-3-1>span {
+    text-align: center;
+}
+
+.oBox-3-2 {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 100px;
+}
+
+.oBox-3-2>button {
+    width: 100%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.oBox-3-2>button:hover {
+    color: #FFF;
+    background-color: rgb(241, 43, 43);
+}
+
+.oBox-3-3 {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.oBox-4>h2, .oBox-4>p {
+    text-align: center;
+    color: #666;
+}
+
+.oBox-4>h2 {
+    padding-top: 50px;
+}
+
+.oBox-4>p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.oBox-4-1 {
+    width: 100%;
+    position: relative;
+}
+
+.hidden-md {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.visible-sm {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hidden-md>img {
+    width: 100%;
+}
+
+.imgBox {
+    background-image: url('../img/introduce.jpg');
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background-position: center center;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    -webkit-transition: all .46s ease;
+    -o-transition: all .46s ease;
+    -moz-transition: all .46s ease;
+    transition: all .46s ease;
+    margin: 0 auto;
+}
+
+.imgBox:hover {
+    transform: scale(1.02);
+    z-index: 1;
+}
+
+.VideoBtn {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.imgBox:hover+.VideoBtn {
+    top: 60%;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.VideoBtn:hover {
+    top: 60%;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.oBox-5 h1 {
+    font-family: 'Calibri';
+    font-size: 12rem;
+    text-align: center;
+    color: #D81B43;
+    padding: 10px 0;
+}
+
+.oBox-5 p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.oBox-5 span {
+    padding: 10px 0;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    color: #666;
+}
+
+.oBox-5 img {
+    margin: 0 auto;
+}
+
+.oBox-6>ul {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    list-style: none;
+}
+
+.oBox-6>ul>li {
+    border: 2px solid red;
+    display: inline-block;
+    width: 20%;
+}
+
+.oBox-6 img {
+    width: 90%;
+}
+
+.oBox-7 {
+    margin: 20px 0 15px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #eee;
+    transition: 0.5s;
+}
+
+.oBox-7:hover {
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 15px 5px rgba(80, 247, 3, 0.3);
+}
+
+.ContactBtn {
+    width: 150px;
+    margin: 0 auto 10px auto;
+}
+
+.ContactBtn button {
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #EF4136;
+    color: #FFF;
+    border-radius: 100px;
+    font-size: 15px;
+    border: 2px solid #FFF;
+}
+
+.oBox-7>div {
+    margin-top: 5%;
+}
+
+.oBox-7 p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.oBox-7 button :hover {
+    cursor: pointer;
+}
+
+.oBox-7 span {
+    line-height: 50px;
+}
+
+.ContactImg {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.ContactImg>img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ContactImg>p {
+    color: #666;
+}
+
+.oBox-7 form>.form-group {
+    padding-bottom: 15px;
+}
+
+.form-group button {
+    width: 100%;
+    background: #EF4136;
+    color: #FFF;
+    padding: 10px;
+}
+
+.Box2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Box2>div {
+    width: 33%;
+}
+
+.Box2 img {
+    width: 100%;
+}

@@ -1,0 +1,249 @@
+.P1-Box1 {
+    max-width: 100%;
+}
+
+.P1-Box2 {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #f3f3f3;
+}
+p{
+    font-size: large;
+}
+.slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.slider>div {
+    padding: 5px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container>div {
+    padding: 15px 0;
+}
+
+.disimg {
+    width: 100%;
+}
+
+.more {
+    width: 100px;
+    position: absolute;
+    right: 0;
+    transition: .2s;
+    color: black;
+}
+
+.col-lg-12 {
+    transition: .2s;
+    transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+.more:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #62cfad;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 50%;
+}
+
+.search-btn {
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #62cfad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 80%;
+    padding: 0 6px;
+}
+
+.search-box:hover>.search-btn {
+    background: #FFF;
+}
+
+.search-box:hover>.search-btn path {
+    fill: rgb(99, 99, 99);
+}
+
+.visible-xs>input {
+    position: absolute;
+    width: 90%;
+    padding: 10px 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #1eff00;
+    border-radius: 60px;
+    border: none;
+    color: #FFF;
+}
+
+.visible-xs>a {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -45%);
+}
+
+.P1-Box3 {
+    color: #666;
+    text-align: center;
+}
+
+.P1-Box4 p {
+    padding: 10px 0;
+    font-size: large;
+}
+
+[class*='outBox'] {
+    position: relative;
+    width: 100%;
+    height: 415px;
+}
+
+.outBox3 {
+    height: 500px;
+}
+
+[class*='scrollBox'] {
+    width: 1095px;
+    height: 310px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    visibility: visible;
+    margin: 0 auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.scrollBox3 {
+    height: 410px;
+}
+
+.scrollBox5 {
+    height: 410px;
+}
+
+[class*='prevBtn'], [class*='nextBtn'] {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+[class*='prevBtn'] {
+    left: 5%;
+}
+
+[class*='nextBtn'] {
+    right: 5%;
+}
+
+[class*='itemBox'] {
+    padding: 5px;
+    position: absolute;
+    width: 1000%;
+    left: 0px;
+}
+
+[class*='itemBox']>div {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    width: 350px;
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.itemBox3>div {
+    height: 400px;
+}
+
+.itemBox5>div {
+    height: 400px;
+}
+
+.P1-Box4-1 {
+    transition: 0.5s;
+}
+
+.P1-Box4-1:hover {
+    box-shadow: 0 0 5px 5px #eee;
+}
+
+.P1-Box4-1 p {
+    margin: 15px 0 0 0;
+}
+
+.P1-Box4-1:hover p {
+    color: #ef4136;
+}
+
+[class*='itemBox'] img {
+    transition: 0.3s;
+}
+
+.itemBox1 img {
+    width: 100%;
+    height: 210px;
+}
+
+.itemBox5 img {
+    width: 100%;
+    height: 320px;
+}
+
+.P1-Box4-1:hover img {
+    transform: scale(1.02);
+}
+
+.P1-Box3:last-child {
+    margin-bottom: 25px;
+}

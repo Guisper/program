@@ -1,0 +1,54 @@
+h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.mainBox3 {
+    padding: 10px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.mainBox3>p {
+    padding: 10px;
+    width: 70%;
+    font-size: larger;
+}
+
+.mainBox3 span {
+    color: #666;
+    padding: 10px;
+}
+
+.mainBox3>p>span {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.mainBox3:hover {
+    box-shadow: 0 0 10px 5px #eee;
+}
+
+.mainBox3:hover p {
+    color: #ef4136;
+}
+
+.mainBox3 button {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #888;
+    margin: 10px;
+    padding: 5px;
+}
+
+.limitBox {
+    color: #666;
+    margin: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

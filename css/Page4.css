@@ -1,0 +1,145 @@
+.P4-Box0 {
+    padding-top: 30px;
+}
+
+.P4-Box0>h2, .P4-Box0>p {
+    text-align: center;
+    color: #666;
+}
+
+.P4-Box1 h1 {
+    font-family: 'Calibri';
+    font-size: 12rem;
+    text-align: center;
+    color: #D81B43;
+    padding: 10px 0;
+}
+
+.P4-Box1 p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.P4-Box1 span {
+    padding: 10px 0;
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+}
+
+.P4-Box1 img {
+    margin: 0 auto;
+}
+
+.P4-Box2 {
+    padding-top: 50px;
+    color: #666;
+}
+
+.P4-Box2>h2, .P4-Box2>p {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.P4-Box3 {
+    padding: 10px 0;
+}
+
+.P4-Box3 p {
+    padding: 15px 0;
+    line-height: 30px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.container>div {
+    padding: 15px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.col-lg-6>p {
+    padding-bottom: 15px;
+    font-size: large;
+    color: white;
+}
+
+.circleTitle {
+    display: flex;
+}
+
+.space>div {
+    padding: 15px 0;
+}
+
+.container img {
+    width: 100%;
+}
+
+.lessPadding div {
+    margin: 0;
+    padding: 5px;
+}
+
+.title1 {
+    height: 112px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 15px 0 !important;
+}
+
+.sameh>div>img {
+    height: 200px;
+}
+
+.title1>h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.nop {
+    padding: 10px 0 !important;
+}
+
+.nop>img {
+    height: 240px;
+}
+
+.space button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    outline: none;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.circleTitle>div {
+    font-size: large;
+    font-weight: bold;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 5px;
+    color: white;
+    padding: 3px 4px 3px 6px;
+}
+
+.container img {
+    width: 100%;
+}

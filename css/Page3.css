@@ -1,0 +1,187 @@
+.item {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+
+.carousel-inner>.item {
+    height: 650px;
+}
+
+.circleimg>div>img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container>div {
+    padding: 15px 0;
+}
+
+.container img {
+    width: 100%;
+}
+
+.leftBtn, .rightBtn {
+    position: absolute;
+    max-width: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.leftBtn {
+    left: 15%;
+}
+
+.rightBtn {
+    right: 15%;
+}
+
+.P3-Box1 {
+    padding: 15px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.P3-Box1>p {
+    padding: 10px;
+    width: 65%;
+    font-size: larger;
+}
+
+.P3-Box1 span {
+    color: #666;
+    padding: 10px;
+}
+
+.P3-Box1>p>span {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+.limitBox {
+    color: #666;
+    margin: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.P3-Box1:hover {
+    box-shadow: 0 0 10px 5px #eee;
+}
+
+.P3-Box1:hover p {
+    color: #ef4136;
+}
+
+.P3-Box1 button {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #888;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+.P3-Box2 {
+    position: relative;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.P3-Box2 p {
+    margin: 0;
+    padding: 8% 0 0 0;
+    font-size: large;
+}
+
+.P3-Box2 span {
+    color: #666;
+    padding: 10px 0;
+}
+
+.P3-Box2:hover {
+    box-shadow: 0 0 10px 5px #eee;
+}
+
+.P3-Box2:hover p {
+    color: #ef4136;
+}
+
+.P3-Box2:hover span {
+    color: #ef4136;
+}
+
+.P3-Box2 img {
+    width: 100%;
+    height: 200px;
+    transition: 0.4s;
+}
+
+.P3-Box2:hover img {
+    transform: scale(1.03);
+}
+
+.P3-Box2 .limitBox {
+    margin: 0;
+}
+
+.P3-Box2 button {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #888;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.svg1, .svg2 {
+    position: absolute;
+    right: 15%;
+    bottom: 3%;
+}
+
+.svg1 {
+    opacity: 0;
+}
+
+.svg2 {
+    transform: translateX(100%);
+}
+
+.P3-Box2:hover .svg1 {
+    transform: translateX(100%);
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.P3-Box2:hover .svg2 {
+    opacity: 0;
+    display: none;
+}
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    background: -webkit-linear-gradient(right, #006FE0, #FF073E);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #006FE0, #FF073E);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #006FE0, #FF073E);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(right, #006FE0, #FF073E);
+    /* 标准的语法（必须放在最后） */
+}

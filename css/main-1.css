@@ -1,0 +1,95 @@
+h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+.mainBox1 {
+    position: relative;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.mainBox1 p {
+    margin: 0;
+    padding: 8% 0 0 0;
+    font-size: large;
+}
+
+.mainBox1 span {
+    color: #666;
+    padding: 10px 0;
+}
+
+.mainBox1:hover {
+    box-shadow: 0 0 10px 5px #eee;
+}
+
+.mainBox1:hover p {
+    color: #ef4136;
+}
+
+.mainBox1:hover span {
+    color: #ef4136;
+}
+
+.mainBox1 img {
+    width: 100%;
+    height: 200px;
+    transition: 0.4s;
+}
+
+.mainBox1:hover img {
+    transform: scale(1.03);
+}
+
+.mainBox1 .limitBox {
+    margin: 0;
+}
+
+.mainBox1 button {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #888;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.limitBox {
+    margin: 0;
+    color: #666;
+    margin: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+.svg1,
+.svg2 {
+    position: absolute;
+    right: 15%;
+    bottom: 3%;
+}
+
+.svg1 {
+    opacity: 0;
+}
+
+.svg2 {
+    transform: translateX(100%);
+}
+
+
+.mainBox1:hover .svg1 {
+    transform: translateX(100%);
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.mainBox1:hover .svg2 {
+    opacity: 0;
+    display: none;
+}

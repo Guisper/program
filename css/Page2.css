@@ -1,0 +1,164 @@
+.P2-Box1,
+.P2-Box3 {
+    text-align: center;
+    padding-top: 30px;
+    color: #666;
+}
+
+.P2-Box1>p,
+.P2-Box3>p {
+    padding: 10px 0;
+}
+
+.P2-Box1>span,
+.P2-Box3>span {
+    color: #333;
+    display: inline-block;
+}
+
+.P2-Box2 {
+    text-align: center;
+}
+
+.P2-Box2 img {
+    margin: 0 auto;
+}
+
+.P2-Box2 span {
+    width: 65%;
+    color: #AAA;
+    display: inline-block;
+}
+
+.P2-Box2 div {
+    padding: 10px;
+}
+
+.P2VideoBox {
+    position: relative;
+}
+
+.hidden-md {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.visible-sm {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hidden-md>img {
+    width: 100%;
+}
+
+.imgBox {
+    background-image: url('../img/P2-pic6.jpg');
+    width: 65%;
+    height: 0;
+    padding-bottom: 30%;
+    margin: 0 auto;
+    background-position: center center;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    -webkit-transition: all .46s ease;
+    -o-transition: all .46s ease;
+    -moz-transition: all .46s ease;
+    transition: all .46s ease;
+}
+
+.imgBox:hover {
+    transform: scale(1.02);
+    z-index: 1;
+}
+
+.VideoBtn {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.imgBox:hover+.VideoBtn {
+    top: 50%;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.VideoBtn:hover {
+    top: 50%;
+    cursor: pointer;
+    opacity: 1;
+}
+
+/* .P2-Box3{
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    background-image: url('../img/P2-pic5.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+} */
+
+
+.P2-Box4 {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.P2-Box4 h3 {
+    font-size: 5rem;
+    color: black;
+}
+
+.visible-xs h3 {
+    font-size: 3rem;
+}
+
+.P2-Box4 p {
+    color: #666;
+}
+
+.P2-Box5 {
+    text-align: center;
+    color: #666;
+    padding-top: 50px;
+}
+
+.P2-Box5 p {
+    padding: 10px 0;
+}
+
+.P2-Box5 span {
+    display: inline-block;
+}
+
+.P2-Box6 {
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.P2-Box6 {
+    padding: 20px 0;
+}
+
+.P2-Box6 img {
+    transition: 0.3s;
+}
+
+.P2-Box6 img:hover {
+    transform: scale(1.03);
+}

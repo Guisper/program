@@ -1,0 +1,20 @@
+h3 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+}
+
+.mainBox4>h2, .mainBox4>p {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.mainBox4-1 {
+    padding: 10px 0;
+}
+
+.mainBox4-1 p {
+    padding: 15px 0;
+    line-height: 30px;
+}
