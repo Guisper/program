@@ -52,7 +52,7 @@
     <div class="container" style="margin-top: 100px;" v-for="(item, i) in goods" v-show="index == i">
       <div class="row P11-Box2">
         <div class="col-lg-5 P11-Box21">
-          <img :src="'../img/' + item.imgUrl" class="img-responsive">
+          <img :src="'../img/goods/' + item.imgUrl" class="img-responsive">
           <div class="P11BtnBox">
             <a><button @click="index--" :disabled="index==0">上一个</button></a>
             <a><button @click="index++" :disabled="index==19">下一个</button></a>

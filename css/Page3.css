@@ -4,10 +4,6 @@
     overflow: hidden;
 }
 
-.carousel-inner>.item {
-    height: 650px;
-}
-
 .circleimg>div>img {
     width: 240px;
     height: 240px;
