@@ -38,7 +38,6 @@ $(function () {
     }
   }
 
-
   new Vue({
     el: '#app',
     data() {
@@ -72,17 +71,17 @@ $(function () {
           {
             title: '美食推荐',
             desc: '美食街的镇街之宝，必须打卡的苍蝇馆子让你的每一天都过得热气腾腾',
-            href: 'https\://www.mafengwo.cn/gonglve/ziyouxing/5677.html'
+            href: 'https\://you.ctrip.com/fooditem/chengdu104.html'
           },
           {
             title: '民宿客栈',
             desc: '一把藤椅，两株绿植，三杯热茶，来听听老板的故事吧',
-            href: 'http\://www.mafengwo.cn/search/q.php?q=%E6%88%90%E9%83%BD&t=hotels&seid=69C2AB27-5F09-4D52-B856-554DBAD137C6&mxid=&mid=&mname=&kt=1'
+            href: 'https\://hotels.ctrip.com/hotels/list?countryId=1&city=28&optionId=28&optionType=City&display=%e6%88%90%e9%83%bd'
           },
           {
             title: '休闲娱乐',
             desc: '摆龙门阵？茶馆闲谈？点击这里，了解更多老成都娱乐',
-            href: 'http\://www.dianping.com/chengdu/ch30'
+            href: 'https\://you.ctrip.com/sight/chengdu104.html'
           },
         ],
         carousel: new Array(15)
