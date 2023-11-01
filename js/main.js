@@ -84,7 +84,7 @@ $(function () {
             href: 'https\://you.ctrip.com/sight/chengdu104.html'
           },
         ],
-        carousel: new Array(15)
+        carousel: new Array(14)
       }
     },
     created() {
